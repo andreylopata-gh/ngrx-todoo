@@ -1,0 +1,86 @@
+{
+  "reflect-metadata": {
+    "bundle": "polyfills",
+    "version": "0.1.10"
+  },
+  "zone.js": {
+    "bundle": "polyfills",
+    "version": "0.7.8"
+  },
+  "@angular/platform-browser": {
+    "bundle": "vendor",
+    "version": "4.4.4"
+  },
+  "@angular/platform-browser-dynamic": {
+    "bundle": "vendor",
+    "version": "4.4.4"
+  },
+  "@angular/core": {
+    "bundle": "vendor",
+    "version": "4.4.4"
+  },
+  "@angular/common": {
+    "bundle": "vendor",
+    "version": "4.4.4"
+  },
+  "@angular/forms": {
+    "bundle": "vendor",
+    "version": "4.4.4"
+  },
+  "@angular/http": {
+    "bundle": "vendor",
+    "version": "4.4.4"
+  },
+  "@angular/router": {
+    "bundle": "vendor",
+    "version": "4.4.4"
+  },
+  "@angularclass/hmr": {
+    "bundle": "vendor",
+    "version": "1.2.2"
+  },
+  "rxjs": {
+    "bundle": "vendor",
+    "version": "5.0.1"
+  },
+  "angular2-modal": {
+    "bundle": "vendor",
+    "version": "2.0.3"
+  },
+  "angular2-modal-bootstrap-plugin": {
+    "bundle": "vendor",
+    "version": "2.0.3"
+  },
+  "@ngrx/store": {
+    "bundle": "vendor",
+    "version": "4.0.3"
+  },
+  "@ngrx/router-store": {
+    "bundle": "vendor",
+    "version": "4.0.4"
+  },
+  "@ngrx/store-devtools": {
+    "bundle": "vendor",
+    "version": "4.0.0"
+  },
+  "@ngrx/effects": {
+    "bundle": "vendor",
+    "version": "4.0.5"
+  },
+  "angular2-ladda": {
+    "bundle": "vendor",
+    "version": "1.2.2"
+  },
+  "ngx-mask": {
+    "bundle": "vendor",
+    "version": "1.0.3"
+  },
+  "socket.io": {
+    "bundle": "vendor",
+    "version": "1.7.3"
+  },
+  "css-loader": {
+    "bundle": "vendor",
+    "version": "0.26.4"
+  }
+}

@@ -1,0 +1,52 @@
+# compiled output
+/dist
+**/dist
+server/dist*
+client/dist*
+/tmp
+
+# dependencies
+package-lock.json
+**/node_modules
+/node_modules
+yarn.lock
+package-lock.json
+
+# IDEs and editors
+/.idea
+**/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/e2e-reports/*
+**/.env
+/libpeerconnection.log
+/server/newrelic_agent.log
+newrelic_agent.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/**/*.js
+/e2e/**/*.d.ts
+/e2e/**/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+debug.log

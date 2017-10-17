@@ -1,0 +1,14 @@
+﻿<div class="header">
+	<div class="header__wrapper">
+		<div [routerLink]="['/']"
+		     class="header__logo-wrapper">
+			<i class="header__logo">Logo11</i>
+		</div>
+		<menu class="header__menu">
+			<a *ngFor="let item of menu"
+			   [routerLink]="[item.url]"
+			   [ngClass]="item.type"
+			   class="header__menu-item">{{item.text}}</a>
+		</menu>
+	</div>
+</div>

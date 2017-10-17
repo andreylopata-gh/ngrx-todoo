@@ -1,0 +1,9 @@
+<div class="app">
+	<div class="app__content">
+		<div id="todo-body">
+			<todo-add (createTodo)="addTodoToList($event)" class="todo-child"></todo-add>
+			<todo-list [todoList]="todos$ | async" (deleteTodoById)="deleteTodoFromList($event)" (todoToggle)="toogleDoneTodoList($event)" class="todo-child"></todo-list>
+		</div>
+		<router-outlet></router-outlet>
+	</div>
+</div>

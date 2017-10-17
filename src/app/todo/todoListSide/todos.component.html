@@ -1,0 +1,9 @@
+<ul id="todos-ul">
+    <li *ngFor="let todoItem of todoList.data" [class.done]="todoItem.done">
+        <button class="checkbox icon mycheckbox" (click)="toogleCheckBox(todoItem)">
+            <i class="material-icons">{{todoItem.done ? 'check_box' : 'check_box_outline_blank'}}</i>
+        </button>
+        {{todoItem.title}}
+        <button id="close-todo-btn" type="submit" (click)="deleteTodo(todoItem)"></button>
+    </li>
+</ul>

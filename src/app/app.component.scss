@@ -1,0 +1,27 @@
+.app {
+	font-size: 1em;
+	padding: 0;
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	min-height: 100vh;
+	@include e('header') {
+
+	}
+	@include e('content') {
+		flex: 1 1 auto;
+	}
+	@include e('footer') {
+
+	}
+}
+
+#todo-body {
+	border-radius: 10px;
+	max-width: 500px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+

@@ -1,0 +1,99 @@
+#todos-ul{
+  border:1px solid darkgray;
+  padding: 0;
+  list-style: none;
+  background: lightgrey;
+
+}
+#todos-ul> li{
+  padding-left: 15px;
+  border-bottom:1px solid grey;
+  -text-align:center;
+  line-height: 2;
+
+  background: rgb(235,241,246); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(235,241,246,1) 0%, rgba(171,211,238,1) 50%, rgba(137,195,235,1) 51%, rgba(213,235,251,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(235,241,246,1) 0%,rgba(171,211,238,1) 50%,rgba(137,195,235,1) 51%,rgba(213,235,251,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(235,241,246,1) 0%,rgba(171,211,238,1) 50%,rgba(137,195,235,1) 51%,rgba(213,235,251,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=0 ); /* IE6-9 */
+}
+
+#close-todo-btn{
+  float:right;
+  margin-top:15px;
+  -margin-right:-30px;
+  cursor:pointer;
+  color: #fff;
+  border: 1px solid #AEAEAE;
+  border-radius: 30px;
+  background: #605F61;
+  font-size: 31px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 0px;
+  padding: 11px 3px;
+}
+
+#close-todo-btn:before {
+  content: "×";
+}
+
+.checkbox icon{
+  width:40px;
+}
+
+.mycheckbox button {
+  background: 0 0;
+  border: none;
+  border-radius: 2px;
+  color: #757575;
+  position: relative;
+  height: 36px;
+  margin: 0;
+  min-width: 64px;
+  padding: 0 6px;
+  display: inline-block;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  overflow: hidden;
+  will-change: box-shadow;
+  transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 16px;
+  vertical-align: middle;
+}
+button{
+  display: inline-block;
+}
+
+button:hover {
+  background-color: rgba(158,158,158,.2);
+}
+
+button:active {
+  background-color: rgba(158,158,158,.4);
+}
+
+button.icon {
+  border-radius: 50%;
+  font-size: 24px;
+  height: 32px;
+  margin-left: 0;
+  margin-right: 0;
+  min-width: 32px;
+  width: 32px;
+  padding: 0;
+  overflow: hidden;
+  line-height: normal;
+}
+
+.done{
+  text-decoration: line-through;
+}
+

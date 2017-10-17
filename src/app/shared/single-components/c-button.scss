@@ -1,0 +1,65 @@
+.c-button {
+	background-color: $accent-color;
+	color: $white;
+	border: 2px solid $accent-color;
+	border-radius: 7px;
+	display: inline-block;
+	font-size: $base-font-size;
+	padding: $base-padding $base-padding * 2;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+
+	&:hover,
+	&:focus,
+	&.active {
+		text-decoration: none;
+		color: $white;
+		outline: none;
+	}
+	&[disabled] {
+		background: $disabled-color;
+		color: $black;
+		border-color: $disabled-color;
+	}
+	@include m('empty') {
+		color: inherit;
+	}
+	@include m('transparent') {
+		background-color: transparent;
+	}
+	@include m('login') {
+		background-color: $login-button-color;
+		border-color: $login-button-color;
+	}
+	@include m('main-mts') {
+		background-color: #fff;
+		color: $black;
+		border-color: $mts-color;
+		border-radius: 10px;
+		font-size: 20px;
+		padding: 10px 50px;
+	}
+	@include m('lg') {
+		padding: 10px;
+		min-width: 415px;
+		border-radius: 10px;
+	}
+	@include m('md') {
+		padding: 10px;
+		min-width: 300px;
+		border-radius: 10px;
+	}
+	@include m('fail') {
+		background-color: $fail-color;
+		border-color: $fail-color;
+	}
+	@include m('success') {
+		background-color: $success-color;
+		border-color: $success-color;
+	}
+	@include m('accent') {
+		background-color: $accent-color;
+		border-color: $accent-color;
+	}
+}

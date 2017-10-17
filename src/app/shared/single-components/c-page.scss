@@ -1,0 +1,14 @@
+.c-page {
+	margin-top: $header-height;
+
+	@include e('wrapper') {
+		padding: 0 $base-padding * 4;
+		padding-top: $header-height;
+		max-width: $max-width;
+		margin-left: auto;
+		margin-right: auto;
+		@include m('no-pad') {
+			padding-top: 0;
+		}
+	}
+}
